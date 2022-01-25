@@ -47,4 +47,9 @@ public class Circulo {
         System.out.printf("El valor de la longitud del círculo es %f\n",longitud);
        System.out.printf("El valor de la longitud del círculo es %d\n",Math.round(longitud));
     }
-  }
+     public static void CalculaDiametro(double r){
+        double diametro=2*r;
+        System.out.printf("El valor del diámetro del círculo es %f\n", diametro);
+    }
+}
+  
