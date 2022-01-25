@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class Circulo {
 
     final static double PI=3.1416;
+    long color;
     /**
      * @param args the command line arguments
      */
@@ -46,4 +47,4 @@ public class Circulo {
         System.out.printf("El valor de la longitud del círculo es %f\n",longitud);
        System.out.printf("El valor de la longitud del círculo es %d\n",Math.round(longitud));
     }
-}
+  }
